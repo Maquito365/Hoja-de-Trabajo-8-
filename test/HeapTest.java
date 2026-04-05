@@ -18,10 +18,4 @@ public class HeapTest{
             throw new AssertionError("Expected heap to be empty after removals.");
         }   
     }
-    
-    private void assertEquals(String expected, String actual){
-        if (!expected.equals(actual)){
-            throw new AssertionError("Expected: " + expected + ", but got: " + actual);
-        }
-    }
 }
